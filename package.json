@@ -1,0 +1,19 @@
+{
+  "name": "Solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "no_errors_solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "functions": "^1.0.9",
+    "readline-sync": "^1.4.9"
+  }
+}
