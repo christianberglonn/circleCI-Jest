@@ -114,14 +114,11 @@ function menuSearchProduct(products) {
         console.log(`Hittade inga matchningar på '${name}'`);
     else showProducts(filteredProducts);
 }
-//linnil jag krasha din kod!!!
-function useless() {
 
+function searchProduct(products, name) {
+    const filteredProducts = products.filter(product => product.name === name);
+    return filteredProducts;
 }
-/* function searchProduct(products, name) {
-  const filteredProducts = products.filter(product => product.name === name);
-  return filteredProducts;
-} */
 
 function menuExpensiveCheapProduct(products) {
     console.log("Funktionen är inte implementerad ännu :(");
